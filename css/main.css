@@ -2,7 +2,6 @@
 
 header {
   width:100%;
-  margin-bottom: 10px;
   background-color: #600160;
   color: white;
   font-family: 'Arima Madurai', cursive;
@@ -85,6 +84,16 @@ section .row img {
 
 .col-md-6 {
   margin: 0 0 30px;
+}
+
+.col-sm-6 img {
+  border: solid lightgrey 1px;
+}
+
+.col-sm-6 img:hover {
+  background-color:rgba(216,25,47,1);
+  box-shadow:0 2px 4px rgba(0,0,0,.5); 
+  color:#fff;
 }
 
 footer {
